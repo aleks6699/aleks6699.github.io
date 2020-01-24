@@ -1,0 +1,158 @@
+@media (max-width: 1172px) {
+  .footer-item {
+    width: 47%;
+    & + .footer-item {
+      margin-left: 5px;
+    }
+  }
+  .footer__text {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .services-item {
+    width: 100%;
+    margin-top: 80px;
+    &__content {
+      text-align: center;
+      padding-left: 0;
+      padding-top: 45px;
+
+      margin-right: 0;
+      &-img {
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  .work-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 920px) {
+  .footer-item {
+    width: 100%;
+    text-align: left;
+    & + .footer-item {
+      margin-left: 0;
+    }
+  }
+  .footer__text {
+    max-width: 85%;
+  }
+  .footer__info-item {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .testimonials__content {
+    margin: 0 auto;
+  }
+  .testimonials-item {
+    padding-left: 0;
+  }
+}
+@media (max-width: 820px) {
+  .menu {
+    position: absolute;
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+    background-color: #422736;
+    left: 0;
+    top: 0;
+    display: none;
+
+    &-list {
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-top: 2px solid #ee0e0e;
+      border-top: 2px solid #ee0e0e;
+
+      padding: 20px 0;
+    }
+  }
+  .menu.active {
+    display: block;
+  }
+
+  .burger {
+    display: flex;
+    z-index: 8;
+  }
+  .header__intro {
+    padding-bottom: 20px;
+  }
+
+  .intro__title {
+    font-size: 36px;
+    padding-top: 50px;
+  }
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__photo {
+      width: 100%;
+      background-image: url(../img/about.jpg);
+      min-height: 623px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    &__content {
+      width: 100%;
+
+      padding-left: 0;
+      text-align: center;
+      &-title {
+        margin-top: 65px;
+      }
+      &-text {
+        max-width: 100%;
+
+        margin-top: 15px;
+        div {
+          margin-top: 10px;
+        }
+      }
+      &-btn {
+        margin-top: 40px;
+        padding: 17px 30px;
+
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .copyright__inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright__text + .copyright__text {
+    margin-top: 10px;
+  }
+
+  .copyright__social-icons {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 620px) {
+  .work-item {
+    width: 100%;
+  }
+  .footer__form {
+    input {
+      padding: 8px 15px 8px 15px;
+    }
+  }
+}
