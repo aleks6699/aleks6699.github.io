@@ -42,7 +42,7 @@ $(function() {
     event.preventDefault(); // отменяет стандартое поведение ссылки
     let elementID = $(this).data("scroll");
     let elementOffset = $(elementID).offset().top; // отступ данного елемента от верха
-     $(".menu").removeClass(".active");
+     $(".menu").removeClass("active");
 
     $("html, body").animate(
       {
