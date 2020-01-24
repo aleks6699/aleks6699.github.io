@@ -35,13 +35,14 @@ $(function() {
   });
 
   $(".burger").on("click", function() {
-    $(".menu, .burger").toggleClass("active");
+    $(".menu, ").toggleClass("active");
   });
 
   $("[data-scroll]").on("click", function(event) {
     event.preventDefault(); // отменяет стандартое поведение ссылки
     let elementID = $(this).data("scroll");
     let elementOffset = $(elementID).offset().top; // отступ данного елемента от верха
+     $(".menu").removeClass("active");
 
     $("html, body").animate(
       {
