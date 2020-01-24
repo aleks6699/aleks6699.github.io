@@ -26,9 +26,9 @@ $(function() {
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow:
-      '<img class="slider-arrows slider-arrows_left" src="../app/img/arrows-left.png" alt=""></img>',
+      '<img class="slider-arrows slider-arrows_left" src="./img/arrows-left.png" alt=""></img>',
     nextArrow:
-      '<img class="slider-arrows slider-arrows_right" src="../app/img/arrows-right.png" alt=""></img>',
+      '<img class="slider-arrows slider-arrows_right" src="./img/arrows-right.png" alt=""></img>',
 
     asNavFor: ".slider-map",
     responsive: [
@@ -104,9 +104,9 @@ $(function() {
     fade: true,
     infinite: true,
     prevArrow:
-      '<img class="slider-arrows slider-arrows_left" src="../app/img/arrows-left.png" alt=""></img>',
+      '<img class="slider-arrows slider-arrows_left" src="./img/arrows-left.png" alt=""></img>',
     nextArrow:
-      '<img class="slider-arrows slider-arrows_right" src="../app/img/arrows-right.png" alt=""></img>'
+      '<img class="slider-arrows slider-arrows_right" src="./img/arrows-right.png" alt=""></img>'
   });
 
   jQuery(
