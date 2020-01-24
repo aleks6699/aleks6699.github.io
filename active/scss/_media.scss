@@ -1,0 +1,158 @@
+@media (max-width: 1300px) {
+  .work__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .header__intro-title {
+    font-size: 40px;
+  }
+  .burger__item {
+    display: block !important;
+  }
+
+  .nav__link {
+    position: absolute;
+    right: 0;
+    top: 8%;
+    width: 100%;
+    background-color: #31344e;
+    display: none;
+ 
+    ul,
+    li {
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      padding: 8px 10px;
+   
+    }
+  }
+  .nav__link.active{
+    display: block;
+    margin-top: 50px;
+  }
+
+  .features__item {
+    width: 50%;
+  }
+  .team__inner {
+    .team__item {
+      width: 50%;
+      .team__content {
+        text-align: center;
+      }
+    }
+    .team__photo {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+
+  .social {
+    justify-content: center;
+  }
+
+  .reviews__content {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+  .reviews__photo {
+    width: 100%;
+    overflow: hidden;
+    margin: 15px 0 40px;
+  }
+}
+
+@media (max-width: 770px) {
+  .header {
+    min-height: 400px;
+
+    &__intro {
+      padding: 30px 0;
+      &-title {
+        font-size: 30px;
+      }
+
+      &-text {
+        font-size: 16px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .features__inner {
+    margin: 40px 0;
+  }
+  .features__item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .work__item {
+    width: 100%;
+    height: 300px;
+  }
+  .team {
+    margin: 60px 0 30px;
+  }
+  .team__inner {
+    .team__item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .reviews__content {
+    .reviews__text {
+      font-size: 25px;
+    }
+  }
+  .footer__inner {
+    padding: 30px 0;
+  }
+  .footer__block {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    min-height: 300px;
+
+    &__intro {
+      padding: 20px 0;
+      &-title {
+        font-size: 20px;
+      }
+
+      &-text {
+        font-size: 14px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .download {
+    &__btn {
+      padding: 15px 60px;
+    }
+    &__ttle {
+      font-size: 24px;
+    }
+  }
+  .reviews__photo {
+    .reviews__img {
+      right: -150px;
+    }
+  }
+}
